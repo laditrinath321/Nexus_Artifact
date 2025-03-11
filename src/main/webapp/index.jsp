@@ -30,6 +30,19 @@
             max-width: 500px;
             animation: fadeIn 1.5s ease-in-out;
         }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #ff9800;
+            transition: 0.3s;
+        }
+        .profile-img:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 15px rgba(255, 152, 0, 0.7);
+        }
         h1 {
             font-size: 2.5rem;
             text-transform: uppercase;
@@ -83,11 +96,12 @@
 </head>
 <body>
     <div class="container">
+        <img src="https://raw.githubusercontent.com/laditrinath321/mindcircuit14/main/1737845786578.jpeg" alt="Trinath Ladi" class="profile-img">
         <h1>Trinath Ladi</h1>
         <p>Cloud DevOps Engineer | Automating the Future 🚀</p>
         <a href="https://www.linkedin.com" class="btn">Connect with Me</a>
         <div class="social-icons">
-            <a href="https://github.com"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/laditrinath321"><i class="fab fa-github"></i></a>
             <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
             <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
         </div>
