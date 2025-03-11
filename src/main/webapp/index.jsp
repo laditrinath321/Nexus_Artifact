@@ -6,58 +6,63 @@
     <title>Trinath Ladi - Cloud DevOps Engineer</title>
     <style>
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
-            background: url('https://source.unsplash.com/1600x900/?technology,cloud') no-repeat center center fixed;
-            background-size: cover;
-            color: white;
             text-align: center;
+            background: url('https://wallpapercave.com/wp/wp11587024.jpg') no-repeat center center/cover;
+            color: white;
+            margin: 0;
+            padding: 0;
         }
         .container {
             padding: 100px 20px;
-            backdrop-filter: blur(5px);
+            background: rgba(0, 0, 0, 0.6); /* Add transparency for better visibility */
+            border-radius: 15px;
+            display: inline-block;
         }
         .profile-img {
-            width: 150px;
-            height: 150px;
+            width: 180px;
+            height: 180px;
             border-radius: 50%;
-            border: 3px solid white;
-        }
-        h1 {
-            font-size: 3em;
-            margin: 20px 0;
-        }
-        h2 {
-            font-size: 1.8em;
-            color: #ffcc00;
-        }
-        .skills {
-            margin: 30px auto;
-            width: 70%;
-            font-size: 1.2em;
-        }
-        .btn {
-            background: #ff5733;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.2em;
-            display: inline-block;
+            border: 5px solid white;
             margin-top: 20px;
         }
-        .btn:hover {
-            background: #cc4422;
+        h1 {
+            font-size: 40px;
+            margin-top: 10px;
+        }
+        h2 {
+            color: yellow;
+        }
+        .skills {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        .button {
+            background: #ff4500;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background: #ff6347;
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <img src="https://github.com/laditrinath321/mindcircuit14/blob/main/1737845786578.jpeg" alt="Trinath Ladi" class="profile-img">
+        <img src="https://raw.githubusercontent.com/laditrinath321/mindcircuit14/main/1737845786578.jpeg" alt="Trinath Ladi" class="profile-img">
         <h1>Trinath Ladi</h1>
         <h2>Cloud DevOps Engineer</h2>
-        <p class="skills">Expert in AWS, Azure, GCP, Kubernetes, Docker, Terraform, Jenkins, CI/CD Pipelines, Ansible, Linux, and Monitoring Tools.</p>
-        <a href="#portfolio" class="btn">Check My Work</a>
+        <p class="skills">🚀 AWS | Azure | Docker | Kubernetes | Terraform | Jenkins | Ansible | CI/CD | Linux</p>
+        <a href="https://github.com/laditrinath321" class="button">Check My Work</a>
     </div>
+
 </body>
 </html>
