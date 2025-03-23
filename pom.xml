@@ -24,7 +24,7 @@
 		    <id>NexusRepo</id>
 		    <url>http://34.228.75.5:8081/repository/Trinath-repo-release/</url>
 		</repository>
-  	</distributionManagement
+  	</distributionManagement>
 
     
     <build>
